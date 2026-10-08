@@ -1,0 +1,86 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-color",
+        "value": "#2f6f2a",
+        "createdAt": "2026-10-08T23:50:31.519Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (static grass fallback / promise contrast fix)"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#1d4a24",
+        "createdAt": "2026-10-08T23:50:31.594Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (static grass fallback / promise contrast fix)"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#3f7a1c",
+        "createdAt": "2026-10-08T23:50:31.664Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (static grass fallback / promise contrast fix)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "14px",
+        "createdAt": "2026-10-08T23:50:31.736Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (uneven cut-tag corners on offer chip and deal swatch)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "8px",
+        "createdAt": "2026-10-08T23:50:31.808Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (uneven cut-tag corners on offer chip and deal swatch)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "16px",
+        "createdAt": "2026-10-08T23:50:31.883Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (uneven cut-tag corners on offer chip and deal swatch)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "26px",
+        "createdAt": "2026-10-08T23:50:31.957Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (uneven cut-tag corners on offer chip and deal swatch)"
+      },
+      {
+        "rule": "design-system-radius",
+        "value": "30px",
+        "createdAt": "2026-10-08T23:50:32.027Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (uneven cut-tag corners on offer chip and deal swatch)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": ".875rem",
+        "createdAt": "2026-10-08T23:50:32.112Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (small text and wordmark sizes)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": ".9rem",
+        "createdAt": "2026-10-08T23:50:32.194Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (small text and wordmark sizes)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "1.6rem",
+        "createdAt": "2026-10-08T23:50:32.268Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (small text and wordmark sizes)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": ".95rem",
+        "createdAt": "2026-10-08T23:50:32.341Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (small text and wordmark sizes)"
+      },
+      {
+        "rule": "design-system-font-size",
+        "value": "1rem",
+        "createdAt": "2026-10-08T23:50:32.411Z",
+        "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (small text and wordmark sizes)"
+      }
+    ]
+  }
+}
