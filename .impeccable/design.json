@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T23:49:38+00:00",
+  "title": "Design System: Zelaya Lawn & Landscape",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Lawn Green",
+        "canonical": "#12301e",
+        "tonalRamp": [
+          "oklch(15.0% 0.049 155.1)",
+          "oklch(26.4% 0.049 155.1)",
+          "oklch(37.9% 0.049 155.1)",
+          "oklch(49.3% 0.049 155.1)",
+          "oklch(60.7% 0.049 155.1)",
+          "oklch(72.1% 0.049 155.1)",
+          "oklch(83.6% 0.049 155.1)",
+          "oklch(95.0% 0.049 155.1)"
+        ]
+      },
+      "ground-2": {
+        "role": "neutral",
+        "displayName": "Shade Green",
+        "canonical": "#0f2819",
+        "tonalRamp": [
+          "oklch(15.0% 0.042 155.4)",
+          "oklch(26.4% 0.042 155.4)",
+          "oklch(37.9% 0.042 155.4)",
+          "oklch(49.3% 0.042 155.4)",
+          "oklch(60.7% 0.042 155.4)",
+          "oklch(72.1% 0.042 155.4)",
+          "oklch(83.6% 0.042 155.4)",
+          "oklch(95.0% 0.042 155.4)"
+        ]
+      },
+      "ground-3": {
+        "role": "neutral",
+        "displayName": "Night Green",
+        "canonical": "#0c2215",
+        "tonalRamp": [
+          "oklch(15.0% 0.038 155.8)",
+          "oklch(26.4% 0.038 155.8)",
+          "oklch(37.9% 0.038 155.8)",
+          "oklch(49.3% 0.038 155.8)",
+          "oklch(60.7% 0.038 155.8)",
+          "oklch(72.1% 0.038 155.8)",
+          "oklch(83.6% 0.038 155.8)",
+          "oklch(95.0% 0.038 155.8)"
+        ]
+      },
+      "stripe": {
+        "role": "neutral",
+        "displayName": "Mowing Stripe",
+        "canonical": "#15361f",
+        "tonalRamp": [
+          "oklch(15.0% 0.057 151.4)",
+          "oklch(26.4% 0.057 151.4)",
+          "oklch(37.9% 0.057 151.4)",
+          "oklch(49.3% 0.057 151.4)",
+          "oklch(60.7% 0.057 151.4)",
+          "oklch(72.1% 0.057 151.4)",
+          "oklch(83.6% 0.057 151.4)",
+          "oklch(95.0% 0.057 151.4)"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Clearing Cream",
+        "canonical": "#f2eee1",
+        "tonalRamp": [
+          "oklch(15.0% 0.018 92.7)",
+          "oklch(26.4% 0.018 92.7)",
+          "oklch(37.9% 0.018 92.7)",
+          "oklch(49.3% 0.018 92.7)",
+          "oklch(60.7% 0.018 92.7)",
+          "oklch(72.1% 0.018 92.7)",
+          "oklch(83.6% 0.018 92.7)",
+          "oklch(95.0% 0.018 92.7)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Field Ink",
+        "canonical": "#0f2819",
+        "tonalRamp": [
+          "oklch(15.0% 0.042 155.4)",
+          "oklch(26.4% 0.042 155.4)",
+          "oklch(37.9% 0.042 155.4)",
+          "oklch(49.3% 0.042 155.4)",
+          "oklch(60.7% 0.042 155.4)",
+          "oklch(72.1% 0.042 155.4)",
+          "oklch(83.6% 0.042 155.4)",
+          "oklch(95.0% 0.042 155.4)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Moss Ink",
+        "canonical": "#3c5544",
+        "tonalRamp": [
+          "oklch(15.0% 0.041 154.6)",
+          "oklch(26.4% 0.041 154.6)",
+          "oklch(37.9% 0.041 154.6)",
+          "oklch(49.3% 0.041 154.6)",
+          "oklch(60.7% 0.041 154.6)",
+          "oklch(72.1% 0.041 154.6)",
+          "oklch(83.6% 0.041 154.6)",
+          "oklch(95.0% 0.041 154.6)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Frost",
+        "canonical": "#eef3ea",
+        "tonalRamp": [
+          "oklch(15.0% 0.013 130.8)",
+          "oklch(26.4% 0.013 130.8)",
+          "oklch(37.9% 0.013 130.8)",
+          "oklch(49.3% 0.013 130.8)",
+          "oklch(60.7% 0.013 130.8)",
+          "oklch(72.1% 0.013 130.8)",
+          "oklch(83.6% 0.013 130.8)",
+          "oklch(95.0% 0.013 130.8)"
+        ]
+      },
+      "text-soft": {
+        "role": "neutral",
+        "displayName": "Sage",
+        "canonical": "#b9cbb9",
+        "tonalRamp": [
+          "oklch(15.0% 0.032 145.3)",
+          "oklch(26.4% 0.032 145.3)",
+          "oklch(37.9% 0.032 145.3)",
+          "oklch(49.3% 0.032 145.3)",
+          "oklch(60.7% 0.032 145.3)",
+          "oklch(72.1% 0.032 145.3)",
+          "oklch(83.6% 0.032 145.3)",
+          "oklch(95.0% 0.032 145.3)"
+        ]
+      },
+      "lime": {
+        "role": "primary",
+        "displayName": "Logo Leaf Lime",
+        "canonical": "#7cc242",
+        "tonalRamp": [
+          "oklch(15.0% 0.175 133.6)",
+          "oklch(26.4% 0.175 133.6)",
+          "oklch(37.9% 0.175 133.6)",
+          "oklch(49.3% 0.175 133.6)",
+          "oklch(60.7% 0.175 133.6)",
+          "oklch(72.1% 0.175 133.6)",
+          "oklch(83.6% 0.175 133.6)",
+          "oklch(95.0% 0.175 133.6)"
+        ]
+      },
+      "lime-bright": {
+        "role": "primary",
+        "displayName": "Sunlit Lime",
+        "canonical": "#8fd352",
+        "tonalRamp": [
+          "oklch(15.0% 0.175 132.6)",
+          "oklch(26.4% 0.175 132.6)",
+          "oklch(37.9% 0.175 132.6)",
+          "oklch(49.3% 0.175 132.6)",
+          "oklch(60.7% 0.175 132.6)",
+          "oklch(72.1% 0.175 132.6)",
+          "oklch(83.6% 0.175 132.6)",
+          "oklch(95.0% 0.175 132.6)"
+        ]
+      },
+      "lime-deep": {
+        "role": "primary",
+        "displayName": "Mown Lime",
+        "canonical": "#5c9f2c",
+        "tonalRamp": [
+          "oklch(15.0% 0.162 135.0)",
+          "oklch(26.4% 0.162 135.0)",
+          "oklch(37.9% 0.162 135.0)",
+          "oklch(49.3% 0.162 135.0)",
+          "oklch(60.7% 0.162 135.0)",
+          "oklch(72.1% 0.162 135.0)",
+          "oklch(83.6% 0.162 135.0)",
+          "oklch(95.0% 0.162 135.0)"
+        ]
+      },
+      "chrome": {
+        "role": "secondary",
+        "displayName": "Chrome Silver",
+        "canonical": "#d9dee2",
+        "tonalRamp": [
+          "oklch(15.0% 0.008 241.7)",
+          "oklch(26.4% 0.008 241.7)",
+          "oklch(37.9% 0.008 241.7)",
+          "oklch(49.3% 0.008 241.7)",
+          "oklch(60.7% 0.008 241.7)",
+          "oklch(72.1% 0.008 241.7)",
+          "oklch(83.6% 0.008 241.7)",
+          "oklch(95.0% 0.008 241.7)"
+        ]
+      },
+      "leaf-gold": {
+        "role": "tertiary",
+        "displayName": "Maple Gold",
+        "canonical": "#e6b33c",
+        "tonalRamp": [
+          "oklch(15.0% 0.143 84.5)",
+          "oklch(26.4% 0.143 84.5)",
+          "oklch(37.9% 0.143 84.5)",
+          "oklch(49.3% 0.143 84.5)",
+          "oklch(60.7% 0.143 84.5)",
+          "oklch(72.1% 0.143 84.5)",
+          "oklch(83.6% 0.143 84.5)",
+          "oklch(95.0% 0.143 84.5)"
+        ]
+      },
+      "leaf-orange": {
+        "role": "tertiary",
+        "displayName": "Maple Orange",
+        "canonical": "#e07a2c",
+        "tonalRamp": [
+          "oklch(15.0% 0.153 53.3)",
+          "oklch(26.4% 0.153 53.3)",
+          "oklch(37.9% 0.153 53.3)",
+          "oklch(49.3% 0.153 53.3)",
+          "oklch(60.7% 0.153 53.3)",
+          "oklch(72.1% 0.153 53.3)",
+          "oklch(83.6% 0.153 53.3)",
+          "oklch(95.0% 0.153 53.3)"
+        ]
+      },
+      "leaf-red": {
+        "role": "tertiary",
+        "displayName": "Maple Red",
+        "canonical": "#c6452c",
+        "tonalRamp": [
+          "oklch(15.0% 0.169 33.0)",
+          "oklch(26.4% 0.169 33.0)",
+          "oklch(37.9% 0.169 33.0)",
+          "oklch(49.3% 0.169 33.0)",
+          "oklch(60.7% 0.169 33.0)",
+          "oklch(72.1% 0.169 33.0)",
+          "oklch(83.6% 0.169 33.0)",
+          "oklch(95.0% 0.169 33.0)"
+        ]
+      },
+      "gold-ink": {
+        "role": "neutral",
+        "displayName": "Bark Ink",
+        "canonical": "#2a1a05",
+        "tonalRamp": [
+          "oklch(15.0% 0.042 71.3)",
+          "oklch(26.4% 0.042 71.3)",
+          "oklch(37.9% 0.042 71.3)",
+          "oklch(49.3% 0.042 71.3)",
+          "oklch(60.7% 0.042 71.3)",
+          "oklch(72.1% 0.042 71.3)",
+          "oklch(83.6% 0.042 71.3)",
+          "oklch(95.0% 0.042 71.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; uppercase 900 system sans, second clause lime."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads; the close uses a smaller clamp(1.6rem, 6.6vw, 2.8rem) step."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service row names (uppercase 800); step titles use 900 at 1.25rem."
+      },
+      "season": {
+        "displayName": "Season",
+        "purpose": "Lime season group heads beside a 30px line icon."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running text; 34-46ch measure."
+      },
+      "pitch": {
+        "displayName": "Pitch",
+        "purpose": "Hero sentence with bold town names."
+      },
+      "label-button": {
+        "displayName": "Button Label",
+        "purpose": "Sentence-case button labels."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "ZELAYA in chrome system serif; 1.3rem/1.6rem in the top bar, large in the close."
+      },
+      "serif-statement": {
+        "displayName": "Serif Statement",
+        "purpose": "The owner's promise line on cream."
+      },
+      "label-lockup": {
+        "displayName": "Lockup Label",
+        "purpose": "LAWN & LANDSCAPE under the wordmark only (0.66rem/.2em in top bar, 0.8rem/.3em in close)."
+      }
+    },
+    "shadows": [
+      {
+        "name": "button-lift",
+        "value": "0 8px 20px -8px rgba(4,18,9,.6)",
+        "purpose": "Primary button only."
+      },
+      {
+        "name": "chip-set-down",
+        "value": "0 6px 18px -8px rgba(0,0,0,.5)",
+        "purpose": "Tilted offer chip."
+      },
+      {
+        "name": "swatch-set-down",
+        "value": "0 14px 30px -14px rgba(4,18,9,.7)",
+        "purpose": "Desktop deal swatch."
+      },
+      {
+        "name": "bar-cast",
+        "value": "0 -10px 30px -12px rgba(0,0,0,.6)",
+        "purpose": "Sticky bar casting upward."
+      },
+      {
+        "name": "mark-drop",
+        "value": "drop-shadow(0 22px 30px rgba(5,20,10,.55))",
+        "purpose": "Desktop hero Z mark (filter)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Button transform (.25s) and row arrow well (.3s)."
+      },
+      {
+        "name": "bar-slide",
+        "value": "transform .35s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Sticky bar entering from translateY(110%)."
+      },
+      {
+        "name": "press",
+        "value": "scale(.97) buttons, scale(.9) row arrows",
+        "purpose": "Active/press feedback."
+      },
+      {
+        "name": "hover-rise",
+        "value": "translateY(-2px) buttons, translateX(4px) row arrows",
+        "purpose": "Hover on hover-capable devices only."
+      },
+      {
+        "name": "turf-constants",
+        "value": "phone/desktop: blades .95/.85 per px; grass 118/172px; leaves 30/54; leaf size 18-32/20-40px; blow radius 110/150px; blow 2600; carry .55; part radius 70/90px; spring K 38, damping 6.5; gust every 6-10s",
+        "purpose": "Canvas grass and blowable leaves in hero and close."
+      },
+      {
+        "name": "wind",
+        "value": "26sin(.9t+.004x) + 14sin(2.1t-.01y+1.7) + 18sin(.37t+2)(.6+.4sin(.21t))",
+        "purpose": "Shared wind field for blades, leaves and drift."
+      },
+      {
+        "name": "drift-constants",
+        "value": "phone/desktop: 5/11 leaves, size 14-22/16-28px, blow radius 100/130px, push 2200",
+        "purpose": "Fixed page-wide leaf drift below the hero."
+      },
+      {
+        "name": "seam-constants",
+        "value": "point step 20, speed 1.0; lines at y 26/44/60, amplitudes 8/10/7",
+        "purpose": "Rolling turf seams between sections."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "still frame",
+        "purpose": "Turf draws once, drift off, seams frozen at t=0, transitions removed."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop",
+        "value": "760px"
+      },
+      {
+        "name": "phone-js",
+        "value": "max-width: 759px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (Text)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main action everywhere: text Zelaya for a free estimate.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z\"/></svg>Text for a free estimate</a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:58px;padding:0 22px;border-radius:999px;border:2px solid var(--lime,#7cc242);font:800 1.0625rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s;background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);box-shadow:0 8px 20px -8px rgba(4,18,9,.6)} .ds-btn-primary:hover{background:#8fd352;transform:translateY(-2px)} .ds-btn-primary:active{transform:scale(.97)} .ds-btn-primary:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
+    },
+    {
+      "name": "Ghost Button (Call)",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "The second action, always beside the Text button.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z\"/></svg>Call 551-500-3832</a>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:58px;padding:0 22px;border-radius:999px;border:2px solid var(--lime,#7cc242);font:800 1.0625rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s;background:rgba(15,40,25,.55);color:var(--text,#eef3ea)} .ds-btn-ghost:hover{background:rgba(124,194,66,.14);transform:translateY(-2px)} .ds-btn-ghost:active{transform:scale(.97)} .ds-btn-ghost:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
+    },
+    {
+      "name": "Service Row",
+      "kind": "custom",
+      "refersTo": "service-row",
+      "description": "One tappable row per service; texts Zelaya with the service pre-filled.",
+      "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\"><span><b>Snow removal</b><small>Residential &amp; commercial</small></span><span class=\"ds-go\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\"><span><b>Leaf removal</b></span><span class=\"ds-go\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li></ul>",
+      "css": ".ds-rows{list-style:none;margin:0;padding:0;background:var(--ground-2,#0f2819);color:var(--text,#eef3ea);font-family:var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif)} .ds-rows li{border-top:1px solid rgba(185,203,185,.18)} .ds-rows li:last-child{border-bottom:1px solid rgba(185,203,185,.18)} .ds-row{display:flex;align-items:center;gap:14px;min-height:64px;padding:12px 2px;color:inherit;text-decoration:none} .ds-row b{font:800 1.18rem/1.15 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-transform:uppercase;letter-spacing:-.005em} .ds-row small{display:block;margin-top:3px;font-size:.9rem;color:var(--text-soft,#b9cbb9)} .ds-go{margin-left:auto;display:flex;align-items:center;justify-content:center;width:40px;height:40px;flex:none;border-radius:50%;background:rgba(124,194,66,.14);color:var(--lime,#7cc242);transition:transform .3s cubic-bezier(.16,1,.3,1),background-color .2s} .ds-row:hover .ds-go{background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);transform:translateX(4px)} .ds-row:active .ds-go{transform:scale(.9)} .ds-row:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
+    },
+    {
+      "name": "Season Head",
+      "kind": "custom",
+      "refersTo": "season",
+      "description": "Lime line icon, uppercase season name, optional Sage note.",
+      "html": "<div class=\"ds-season\"><svg viewBox=\"0 0 32 32\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 26C6 14 13 6 27 5c0 14-8 21-21 21z\"/><path d=\"M6 26L19 13\"/></svg><h3>Fall</h3><span>booking now</span></div>",
+      "css": ".ds-season{display:flex;align-items:center;gap:12px;padding:10px 0;background:var(--ground-2,#0f2819);font-family:var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif)} .ds-season svg{color:var(--lime,#7cc242);flex:none} .ds-season h3{margin:0;font:900 1.05rem/.95 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:.06em;text-transform:uppercase;color:var(--lime,#7cc242)} .ds-season span{margin-left:auto;font-size:.875rem;color:var(--text-soft,#b9cbb9)}"
+    },
+    {
+      "name": "Offer Chip",
+      "kind": "chip",
+      "refersTo": "offer-chip",
+      "description": "Tilted Maple Gold tag carrying the 10%-off offer.",
+      "html": "<p class=\"ds-offer\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 12V4a1 1 0 0 1 1-1h8l9 9-9 9z\"/><circle cx=\"8\" cy=\"8\" r=\"1.6\"/></svg>10% off all services through Dec&nbsp;31</p>",
+      "css": ".ds-offer{display:inline-flex;align-items:center;gap:10px;margin:0;padding:9px 16px 9px 12px;background:var(--leaf-gold,#e6b33c);color:#2a1a05;font:800 .95rem/1.2 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);border-radius:6px 14px 8px 16px;transform:rotate(-1.5deg);box-shadow:0 6px 18px -8px rgba(0,0,0,.5)}"
+    },
+    {
+      "name": "Deal Swatch",
+      "kind": "card",
+      "refersTo": "deal-swatch",
+      "description": "Desktop-only lime block restating the offer inside the services grid.",
+      "html": "<p class=\"ds-deal\">10% off all services<small>through December 31</small></p>",
+      "css": ".ds-deal{display:inline-block;margin:0;padding:22px 30px;background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);font:900 2.4rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-transform:uppercase;border-radius:10px 26px 8px 30px;transform:rotate(-2deg);box-shadow:0 14px 30px -14px rgba(4,18,9,.7)} .ds-deal small{display:block;margin-top:6px;font:800 .95rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:.06em}"
+    },
+    {
+      "name": "Town Chips",
+      "kind": "chip",
+      "refersTo": "town-chip",
+      "description": "Service-area towns as lime-washed pills; the last chip is dashed.",
+      "html": "<ul class=\"ds-towns\"><li>Wyckoff</li><li>Franklin Lakes</li><li>Mahwah</li><li class=\"ds-more\">+ surrounding areas</li></ul>",
+      "css": ".ds-towns{list-style:none;margin:0;padding:16px;display:flex;flex-wrap:wrap;gap:10px;background:var(--ground,#12301e);color:var(--text,#eef3ea);font-family:var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif)} .ds-towns li{padding:10px 16px;border-radius:999px;background:rgba(124,194,66,.12);border:1px solid rgba(124,194,66,.35);font-weight:700;font-size:1.0625rem} .ds-towns li.ds-more{background:none;border-style:dashed;color:var(--text-soft,#b9cbb9);font-weight:500}"
+    },
+    {
+      "name": "Step Leaf",
+      "kind": "custom",
+      "refersTo": "step-leaf",
+      "description": "Numbered autumn leaf marking each step on the cream section.",
+      "html": "<div class=\"ds-step\"><svg width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" aria-hidden=\"true\"><path d=\"M8 44C8 24 20 10 44 8c0 24-14 36-36 36z\" fill=\"#e07a2c\"/><path d=\"M10 42L19 33\" stroke=\"#7a3a10\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"28\" y=\"31\" text-anchor=\"middle\" font-family=\"-apple-system,Segoe UI,Roboto,sans-serif\" font-size=\"15\" font-weight=\"900\" fill=\"#2a1205\">2</text></svg><div><h3>Free estimate</h3><p>Zelaya gives you a free estimate for the work.</p></div></div>",
+      "css": ".ds-step{display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start;padding:16px;background:var(--cream,#f2eee1);font-family:var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif)} .ds-step h3{margin:0;padding-top:4px;font:900 1.25rem/1.1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-transform:uppercase;letter-spacing:-.02em;color:var(--ink,#0f2819)} .ds-step p{margin:6px 0 0;color:var(--ink-soft,#3c5544);line-height:1.55}"
+    },
+    {
+      "name": "Sticky Phone Bar",
+      "kind": "nav",
+      "refersTo": "sticky-bar",
+      "description": "Phone-only bottom bar with Text and icon-only Call once in-page buttons scroll away.",
+      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-text\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z\"/></svg>Text for a free estimate</a><a class=\"ds-bar-call\" href=\"#\" aria-label=\"Call\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z\"/></svg></a></nav>",
+      "css": ".ds-bar{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;background:rgba(12,34,21,.94);box-shadow:0 -10px 30px -12px rgba(0,0,0,.6)} .ds-bar a{display:flex;align-items:center;justify-content:center;gap:10px;min-height:54px;border-radius:999px;border:2px solid var(--lime,#7cc242);font:800 1.0625rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-decoration:none;transition:transform .25s cubic-bezier(.16,1,.3,1)} .ds-bar-text{background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);padding:0 22px} .ds-bar-call{background:rgba(15,40,25,.55);color:var(--text,#eef3ea);padding:0 18px} .ds-bar a:active{transform:scale(.97)} .ds-bar a:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
+    },
+    {
+      "name": "Turf Seam (static frame)",
+      "kind": "custom",
+      "refersTo": "seam",
+      "description": "Rolling turf edge between sections; animated in the build, shown here at one frame.",
+      "html": "<div class=\"ds-seam-wrap\"><svg class=\"ds-seam\" viewBox=\"0 0 1440 80\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path d=\"M0 44C240 30 480 56 720 42S1200 30 1440 46L1440 80L0 80Z\" fill=\"#f2eee1\"/><path d=\"M0 26C240 18 480 34 720 24S1200 16 1440 28\" fill=\"none\" stroke=\"#2f7230\" stroke-width=\"3\" vector-effect=\"non-scaling-stroke\" stroke-linecap=\"round\"/><path d=\"M0 44C240 30 480 56 720 42S1200 30 1440 46\" fill=\"none\" stroke=\"#7cc242\" stroke-width=\"3.5\" vector-effect=\"non-scaling-stroke\" stroke-linecap=\"round\"/><path d=\"M0 60C240 54 480 66 720 58S1200 52 1440 62\" fill=\"none\" stroke=\"#d8cfb2\" stroke-width=\"2.5\" vector-effect=\"non-scaling-stroke\" stroke-linecap=\"round\"/></svg></div>",
+      "css": ".ds-seam-wrap{background:var(--ground-2,#0f2819);padding-top:24px} .ds-seam{display:block;width:100%;height:80px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Yard You Can Touch",
+    "overview": "The page is a fall lawn, not a website about one. The ground is deep lawn green cut into diagonal mowing stripes; grass grows along the bottom of the opening and closing bands, autumn leaves fall onto it, and a finger or cursor blows them away like a leaf blower. Sections meet at rolling turf seams rather than straight edges. Everything else stays out of the way of one action: text Zelaya for a free estimate.\n\nThe voice is the owner's flyer, promoted: heavy uppercase sans headlines that read like a yard sign, the chrome-serif ZELAYA wordmark from the logo, logo lime and chrome silver as trim, and maple orange, red and gold as the only warm notes. The type stack is the system's own sans and serif, no web fonts; this is the owner's house style and a deliberate choice, not a fallback. Density is phone-first and generous: big tap targets, short service rows, one pair of buttons repeated unchanged.\n\nConfirmed rejections: black grounds (the flyer is black; the page is green), glow shadows, thin highlight rims, stock or AI photography shown as Zelaya's work, and any fact the owner has not stated.",
+    "keyCharacteristics": [
+      "Deep green ground in 115° mowing stripes, never black.",
+      "Living turf: canvas grass and blowable leaves in the hero and the close; a few leaves drift down the page.",
+      "Rolling turf seams between every section.",
+      "Uppercase 900-weight system sans for display; chrome system serif for the wordmark and the promise line.",
+      "One button pair (Text primary, Call ghost), pill-shaped, identical everywhere it appears.",
+      "Warm leaf colors only on the offer and the step leaves; lime carries every action."
+    ],
+    "rules": [
+      {
+        "name": "The Green Ground Rule",
+        "body": "The darkest surface is Night Green. No section, bar, overlay or card is black or neutral grey; translucent layers are green-tinted (rgba(12,34,21,.94), rgba(15,40,25,.55)).",
+        "section": "colors"
+      },
+      {
+        "name": "The Lime Means Act Rule",
+        "body": "Lime is the color of action, the offer and the living turf (buttons, arrows, focus, the deal, seams, season heads, the headline's second clause). Warm leaf colors never sit on a button, and no button is any color but lime or the green ghost.",
+        "section": "colors"
+      },
+      {
+        "name": "The Shout and Sign Rule",
+        "body": "Headings are uppercase 900 sans; sentences are sentence case 400. Nothing in between gets uppercase except the logo lockup.",
+        "section": "typography"
+      },
+      {
+        "name": "The Serif Is the Name Rule",
+        "body": "The serif appears only for the ZELAYA wordmark and the owner's own promise line. It never sets a heading, button or body text.",
+        "section": "typography"
+      },
+      {
+        "name": "The Thumb Rule",
+        "body": "Every tap target is at least 44px; buttons are 58px tall on phones (54px in the sticky bar, 62px desktop) and service rows are 64px.",
+        "section": "layout"
+      },
+      {
+        "name": "The Lying-on-Grass Rule",
+        "body": "A shadow is always dark, offset away from the light, and tighter than its blur (negative spread). No colored glows, no zero-offset halos, no inner highlights.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Cut Tag Rule",
+        "body": "Only the offer and the deal get asymmetric corners and a tilt. Everything you tap is perfectly round.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do keep every ground green (Night Green is the floor) and use the 115° mowing stripe (64px bands of ground and stripe) on the hero and the area band.",
+      "Do repeat the same Text-primary / Call-ghost button pair, in that order, wherever contact is offered.",
+      "Do make every service a row that texts Zelaya with the service pre-filled.",
+      "Do join sections with rolling turf seams whose fill matches the next section.",
+      "Do tune motion through the named turf and drift constants, scaling them down on phones, and keep the reduced-motion still frame.",
+      "Do keep tap targets at 44px or more, and buttons at 54 to 62px tall.",
+      "Do use the system sans and serif stacks; no web fonts."
+    ],
+    "donts": [
+      "Don't use a black or neutral-grey ground anywhere, including bars and overlays.",
+      "Don't use glow shadows: no colored blur, no lime halo, no zero-offset glow. Shadows are dark, downward and spread-negative.",
+      "Don't add thin highlight lines: no 1px light rims, inner top highlights or glassy borders on buttons, chips or panels. The turf seam strokes and the faint row hairlines are the only lines.",
+      "Don't state facts the owner hasn't given: no review stars, testimonials, rating badges, years-in-business ribbons, prices, hours or owner name, and no stock or AI-generated photos presented as Zelaya's work.",
+      "Don't put warm leaf colors on buttons; buttons are lime or the green ghost.",
+      "Don't set headings in the serif or buttons in uppercase.",
+      "Don't turn services into a card grid."
+    ]
+  }
+}

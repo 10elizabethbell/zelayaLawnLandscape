@@ -6,15 +6,15 @@
 - Single file, 42 KB, no images and no web fonts, so it loads instantly on cellular. Phone layout first, desktop added from 760px up.
 - **World: autumn lawn.** Deep-green diagonal mowing stripes (no black), the logo's lime and chrome as trim, and leaf orange, red and gold as the only warm notes.
 - **Signature:** a canvas grass band along the hero's bottom (about 370 blades on a phone, about 1,200 on desktop) that sways in three layered sine waves and parts under a finger or mouse, springing back with a wobble. Maple and ovate leaves fall, tumble and settle into the grass; the pointer works as a **leaf blower** that kicks settled leaves back up and carries them along. Gusts sweep across every 6–10s and lift the leaves again.
-- **Carried down the page:** a few leaves drift over the sections below the hero and can be blown too. Every section break is a rolling turf seam (three moving lines, with the next section's color filling up to the middle line).
-- **Sections:** hero ("Leaves gone. Yard ready for winter.", towns, 10%-off chip, Text and Call buttons) → Year-round care (services grouped Fall / Winter / Lawn, beds & landscape; each row texts Zelaya with that service pre-filled) → Getting on the schedule (3 steps on a cream ground, their "Reliable service. Quality work. Year-round care.") → Service area (town chips) → Close (Z mark, wordmark, their "Your property deserves professional care" and "don't wait" lines, buttons, offer) → footer with "Demo one-pager — free sample."
+- **Carried down the page:** the same grass and leaves return under the closing Text/Call buttons; a few leaves drift over the sections below the hero and can be blown too. Every section break is a rolling turf seam (three moving lines, with the next section's color filling up to the middle line).
+- **Sections:** hero ("Leaves gone. Yard ready for winter.", towns, 10%-off chip, Text and Call buttons) → Year-round care (services grouped Fall / Winter / Lawn, beds & landscape; each row texts Zelaya with that service pre-filled; on desktop a big lime "10% off all services" swatch, echoing the flyer's, fills the left column) → Getting on the schedule (3 steps on a cream ground, their "Reliable service. Quality work. Year-round care.") → Service area (town chips) → Close (living turf, Z mark, wordmark, their "Your property deserves professional care" and "don't wait" lines, buttons, offer) → footer with "Demo one-pager — free sample."
 - **Contact:** `sms:+15515003832?&body=…` with a pre-filled message ("Hi Zelaya Lawn & Landscape! I'd like a free estimate for <service>. Town/address: / Best time to reach me:") plus `tel:`. On phones, a sticky Text + Call bar appears once the hero buttons scroll away and hides again at the closing buttons.
 - Tunable constants are named at the top of each IIFE: blade density, grass height, leaf count and size, blower radius and strength, spring K/D, gust interval, seam speed.
 
 ## Assumptions I made
 - **Logo is a hand-drawn SVG redraw** of the chrome "Z" with two green leaves, taken from the flyer (the flyer's logo sits on a photo, so a clean crop wasn't possible). The wordmark is set in a system serif to echo their chrome serif. Swap in the owner's original logo file when we have it.
 - **The flyer's photos were not used.** They look AI-generated (generic estate homes, lit pavers), so showing them as Zelaya's work would be dishonest. The page has no photos at all.
-- **Season grouping is inferred:** fall = cleanups and leaf removal, winter = snow removal, everything else under "Lawn, beds & landscape". The "booking now" and "reserve a spot" tags are inferred from their "now booking" and "secure your spot" copy.
+- **Season grouping is inferred:** fall = cleanups and leaf removal, winter = snow removal, everything else under "Lawn, beds & landscape". The "booking now" (fall) and "next up" (winter) tags are mine. "Residential & commercial" appears only under snow removal: the flyer pairs it with snow removal, and the brief's separate "RESIDENTIAL & COMMERCIAL" line looks like an OCR split, so I didn't extend it to every service.
 - Duplicate flyer services were merged: "Shrub trimming" + "Shrub & hedge trimming", and "Mulch installation" kept separate from "Mulch & bed maintenance".
 - **Oakland** was added to the area from the flyer; the post caption omitted it.
 - The offer's year is assumed to be 2026 ("through Dec 31").
@@ -25,7 +25,7 @@
 ## Placeholders and gaps
 - No real work photos, before/afters, reviews, hours, owner name, email, or years in business. The page says nothing about any of them.
 - No original logo file.
-- After Dec 31 the offer copy goes stale and needs removing (3 places: hero chip, step 3, close chip).
+- After Dec 31 the offer copy goes stale and needs removing (4 places: hero chip, desktop swatch in services, step 3, close chip).
 
 ## Questions for the owner
 - Can you send 5–10 photos of real jobs (cleanups, mulch beds, hardscapes), ideally before/after pairs?
@@ -33,6 +33,7 @@
 - What are your hours, and should texts get a reply the same day?
 - Who should the page name: your first name, and how long you've been in business?
 - Snow removal: do you take seasonal contracts? It would be worth its own "reserve now" block.
+- Do you take commercial properties for lawn and landscape work, or only for snow removal?
 - Which services do you most want more of (hardscapes and design are higher-ticket)?
 - Any Google reviews or customer texts we could quote, with permission?
 
