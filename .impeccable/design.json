@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-08T23:49:38+00:00",
+  "generatedAt": "2026-10-17T20:52:56+00:00",
   "title": "Design System: Zelaya Lawn & Landscape",
   "extensions": {
     "colorMeta": {
@@ -184,6 +184,21 @@
           "oklch(95.0% 0.162 135.0)"
         ]
       },
+      "lime-ink": {
+        "role": "primary",
+        "displayName": "Promise Lime",
+        "canonical": "#3f7a1c",
+        "tonalRamp": [
+          "oklch(15.0% 0.139 136.5)",
+          "oklch(26.4% 0.139 136.5)",
+          "oklch(37.9% 0.139 136.5)",
+          "oklch(49.3% 0.139 136.5)",
+          "oklch(60.7% 0.139 136.5)",
+          "oklch(72.1% 0.139 136.5)",
+          "oklch(83.6% 0.139 136.5)",
+          "oklch(95.0% 0.139 136.5)"
+        ]
+      },
       "chrome": {
         "role": "secondary",
         "displayName": "Chrome Silver",
@@ -267,39 +282,113 @@
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Section heads; the close uses a smaller clamp(1.6rem, 6.6vw, 2.8rem) step."
+        "purpose": "Section heads."
+      },
+      "headline-close": {
+        "displayName": "Headline (close)",
+        "purpose": "The close's headline under the wordmark; max 18ch."
+      },
+      "deal": {
+        "displayName": "Deal",
+        "purpose": "Desktop deal swatch, uppercase 900."
+      },
+      "town": {
+        "displayName": "Town",
+        "purpose": "Service-area list items, sentence case 800, led by a leaf marker."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Service row names (uppercase 800); step titles use 900 at 1.25rem."
+        "purpose": "Service row names, uppercase 800."
       },
       "season": {
         "displayName": "Season",
         "purpose": "Lime season group heads beside a 30px line icon."
       },
+      "care": {
+        "displayName": "Care",
+        "purpose": "Care paragraph on cream, one step above body; max 38ch."
+      },
       "body": {
         "displayName": "Body",
-        "purpose": "All running text; 34-46ch measure."
+        "purpose": "Running text; 36-46ch measure."
       },
-      "pitch": {
-        "displayName": "Pitch",
-        "purpose": "Hero sentence with bold town names."
+      "body-small": {
+        "displayName": "Body Small",
+        "purpose": "Footer text."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Service-row sublines; call pill under 375px."
+      },
+      "note": {
+        "displayName": "Note",
+        "purpose": "Season notes (booking now, next up)."
       },
       "label-button": {
         "displayName": "Button Label",
-        "purpose": "Sentence-case button labels."
+        "purpose": "Sentence-case button label."
+      },
+      "label-small": {
+        "displayName": "Small Label",
+        "purpose": "Offer chip and call pill."
+      },
+      "label-call-desktop": {
+        "displayName": "Call Label (desktop)",
+        "purpose": "Call pill label from 760px."
       },
       "wordmark": {
         "displayName": "Wordmark",
-        "purpose": "ZELAYA in chrome system serif; 1.3rem/1.6rem in the top bar, large in the close."
+        "purpose": "ZELAYA in chrome system serif in the close."
+      },
+      "wordmark-bar": {
+        "displayName": "Wordmark (bar)",
+        "purpose": "ZELAYA in the top bar; 1.6rem desktop, 1.15rem under 375px."
       },
       "serif-statement": {
         "displayName": "Serif Statement",
         "purpose": "The owner's promise line on cream."
       },
+      "serif-statement-desktop": {
+        "displayName": "Serif Statement (desktop)",
+        "purpose": "Promise line in the two-column cream layout."
+      },
       "label-lockup": {
         "displayName": "Lockup Label",
-        "purpose": "LAWN & LANDSCAPE under the wordmark only (0.66rem/.2em in top bar, 0.8rem/.3em in close)."
+        "purpose": "LAWN & LANDSCAPE under the close wordmark."
+      },
+      "label-lockup-bar": {
+        "displayName": "Lockup Label (bar)",
+        "purpose": "LAWN & LANDSCAPE in the top bar; +0.1em tracking under 430px."
+      }
+    },
+    "roundedMeta": {
+      "pill": {
+        "role": "pill",
+        "canonical": "999px"
+      },
+      "focus": {
+        "canonical": "10px",
+        "purpose": "Focus ring corners."
+      },
+      "chip-organic": {
+        "canonical": "6px 14px 8px 16px",
+        "values": [
+          "6px",
+          "14px",
+          "8px",
+          "16px"
+        ],
+        "purpose": "Cut-tag corners of the offer chip."
+      },
+      "swatch-organic": {
+        "canonical": "10px 26px 8px 30px",
+        "values": [
+          "10px",
+          "26px",
+          "8px",
+          "30px"
+        ],
+        "purpose": "Cut-tag corners of the desktop deal swatch."
       }
     },
     "shadows": [
@@ -319,11 +408,6 @@
         "purpose": "Desktop deal swatch."
       },
       {
-        "name": "bar-cast",
-        "value": "0 -10px 30px -12px rgba(0,0,0,.6)",
-        "purpose": "Sticky bar casting upward."
-      },
-      {
         "name": "mark-drop",
         "value": "drop-shadow(0 22px 30px rgba(5,20,10,.55))",
         "purpose": "Desktop hero Z mark (filter)."
@@ -336,18 +420,18 @@
         "purpose": "Button transform (.25s) and row arrow well (.3s)."
       },
       {
-        "name": "bar-slide",
-        "value": "transform .35s cubic-bezier(.2,.8,.2,1)",
-        "purpose": "Sticky bar entering from translateY(110%)."
+        "name": "color-fade",
+        "value": "background-color .2s, border-color .2s, color .2s",
+        "purpose": "Call pill and arrow well color changes."
       },
       {
         "name": "press",
-        "value": "scale(.97) buttons, scale(.9) row arrows",
+        "value": "scale(.97) button, scale(.9) row arrow wells",
         "purpose": "Active/press feedback."
       },
       {
         "name": "hover-rise",
-        "value": "translateY(-2px) buttons, translateX(4px) row arrows",
+        "value": "translateY(-2px) button, translateX(4px) row arrow wells",
         "purpose": "Hover on hover-capable devices only."
       },
       {
@@ -367,13 +451,13 @@
       },
       {
         "name": "seam-constants",
-        "value": "point step 20, speed 1.0; lines at y 26/44/60, amplitudes 8/10/7",
+        "value": "point step 20, speed 1.0; lines at y 26/44/60, amplitudes 8/10/7; band 56px phone / 80px desktop",
         "purpose": "Rolling turf seams between sections."
       },
       {
         "name": "reduced-motion",
         "value": "still frame",
-        "purpose": "Turf draws once, drift off, seams frozen at t=0, transitions removed."
+        "purpose": "Turf draws once, drift off, seams frozen at t=0, button and arrow transitions removed, smooth scroll off."
       }
     ],
     "breakpoints": [
@@ -384,6 +468,31 @@
       {
         "name": "phone-js",
         "value": "max-width: 759px"
+      },
+      {
+        "name": "narrow",
+        "value": "max-width: 429px"
+      },
+      {
+        "name": "very-narrow",
+        "value": "max-width: 374px"
+      }
+    ],
+    "assets": [
+      {
+        "name": "favicon",
+        "value": "favicon.svg",
+        "purpose": "Chrome Z mark with lime leaf."
+      },
+      {
+        "name": "apple-touch-icon",
+        "value": "apple-touch-icon.png",
+        "purpose": "180px Z mark."
+      },
+      {
+        "name": "og-image",
+        "value": "og.jpg",
+        "purpose": "1200x630 share image."
       }
     ]
   },
@@ -392,25 +501,25 @@
       "name": "Primary Button (Text)",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "The main action everywhere: text Zelaya for a free estimate.",
+      "description": "The one in-page action: text for a free estimate. Hero and close.",
       "html": "<a class=\"ds-btn-primary\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z\"/></svg>Text for a free estimate</a>",
       "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:58px;padding:0 22px;border-radius:999px;border:2px solid var(--lime,#7cc242);font:800 1.0625rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s;background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);box-shadow:0 8px 20px -8px rgba(4,18,9,.6)} .ds-btn-primary:hover{background:#8fd352;transform:translateY(-2px)} .ds-btn-primary:active{transform:scale(.97)} .ds-btn-primary:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
     },
     {
-      "name": "Ghost Button (Call)",
-      "kind": "button",
-      "refersTo": "button-ghost",
-      "description": "The second action, always beside the Text button.",
-      "html": "<a class=\"ds-btn-ghost\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z\"/></svg>Call 551-500-3832</a>",
-      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:58px;padding:0 22px;border-radius:999px;border:2px solid var(--lime,#7cc242);font:800 1.0625rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:.01em;text-decoration:none;cursor:pointer;transition:transform .25s cubic-bezier(.16,1,.3,1),background-color .2s;background:rgba(15,40,25,.55);color:var(--text,#eef3ea)} .ds-btn-ghost:hover{background:rgba(124,194,66,.14);transform:translateY(-2px)} .ds-btn-ghost:active{transform:scale(.97)} .ds-btn-ghost:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
+      "name": "Call Pill (top bar)",
+      "kind": "nav",
+      "refersTo": "call-pill",
+      "description": "The only call control; top right, number visible at every width.",
+      "html": "<div class=\"ds-top\"><a class=\"ds-call\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z\"/></svg><span>551-500-3832</span></a></div>",
+      "css": ".ds-top{background:var(--ground,#12301e);padding:12px 16px;display:flex;justify-content:flex-end} .ds-call{display:flex;align-items:center;justify-content:center;gap:6px;min-height:44px;padding:0 14px;border-radius:999px;border:2px solid rgba(124,194,66,.5);color:var(--lime,#7cc242);text-decoration:none;font:800 .95rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);white-space:nowrap;transition:background-color .2s,border-color .2s} .ds-call:hover{background:rgba(124,194,66,.14);border-color:var(--lime,#7cc242)} .ds-call:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;border-radius:10px}"
     },
     {
       "name": "Service Row",
       "kind": "custom",
       "refersTo": "service-row",
-      "description": "One tappable row per service; texts Zelaya with the service pre-filled.",
+      "description": "One tappable row per service; texts Zelaya with the service pre-filled. Arrow well neutral at rest, lime on hover.",
       "html": "<ul class=\"ds-rows\"><li><a class=\"ds-row\" href=\"#\"><span><b>Snow removal</b><small>Residential &amp; commercial</small></span><span class=\"ds-go\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li><li><a class=\"ds-row\" href=\"#\"><span><b>Leaf removal</b></span><span class=\"ds-go\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></a></li></ul>",
-      "css": ".ds-rows{list-style:none;margin:0;padding:0;background:var(--ground-2,#0f2819);color:var(--text,#eef3ea);font-family:var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif)} .ds-rows li{border-top:1px solid rgba(185,203,185,.18)} .ds-rows li:last-child{border-bottom:1px solid rgba(185,203,185,.18)} .ds-row{display:flex;align-items:center;gap:14px;min-height:64px;padding:12px 2px;color:inherit;text-decoration:none} .ds-row b{font:800 1.18rem/1.15 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-transform:uppercase;letter-spacing:-.005em} .ds-row small{display:block;margin-top:3px;font-size:.9rem;color:var(--text-soft,#b9cbb9)} .ds-go{margin-left:auto;display:flex;align-items:center;justify-content:center;width:40px;height:40px;flex:none;border-radius:50%;background:rgba(124,194,66,.14);color:var(--lime,#7cc242);transition:transform .3s cubic-bezier(.16,1,.3,1),background-color .2s} .ds-row:hover .ds-go{background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);transform:translateX(4px)} .ds-row:active .ds-go{transform:scale(.9)} .ds-row:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
+      "css": ".ds-rows{list-style:none;margin:0;padding:0;background:var(--ground-2,#0f2819);color:var(--text,#eef3ea);font-family:var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif)} .ds-rows li{border-top:1px solid rgba(185,203,185,.18)} .ds-rows li:last-child{border-bottom:1px solid rgba(185,203,185,.18)} .ds-row{display:flex;align-items:center;gap:14px;min-height:64px;padding:12px 2px;color:inherit;text-decoration:none} .ds-row b{font:800 1.18rem/1.15 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-transform:uppercase;letter-spacing:-.005em} .ds-row small{display:block;margin-top:3px;font-size:.9rem;color:var(--text-soft,#b9cbb9)} .ds-go{margin-left:auto;display:flex;align-items:center;justify-content:center;width:40px;height:40px;flex:none;border-radius:50%;background:rgba(238,243,234,.08);color:var(--text-soft,#b9cbb9);transition:transform .3s cubic-bezier(.16,1,.3,1),background-color .2s,color .2s} .ds-row:hover .ds-go{background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);transform:translateX(4px)} .ds-row:active .ds-go{transform:scale(.9)} .ds-row:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
     },
     {
       "name": "Season Head",
@@ -432,33 +541,25 @@
       "name": "Deal Swatch",
       "kind": "card",
       "refersTo": "deal-swatch",
-      "description": "Desktop-only lime block restating the offer inside the services grid.",
+      "description": "Desktop-only Maple Gold block restating the offer inside the services grid.",
       "html": "<p class=\"ds-deal\">10% off all services<small>through December 31</small></p>",
-      "css": ".ds-deal{display:inline-block;margin:0;padding:22px 30px;background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);font:900 2.4rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-transform:uppercase;border-radius:10px 26px 8px 30px;transform:rotate(-2deg);box-shadow:0 14px 30px -14px rgba(4,18,9,.7)} .ds-deal small{display:block;margin-top:6px;font:800 .95rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:.06em}"
+      "css": ".ds-deal{display:inline-block;margin:0;padding:22px 30px;background:var(--leaf-gold,#e6b33c);color:#2a1a05;font:900 2.4rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-transform:uppercase;border-radius:10px 26px 8px 30px;transform:rotate(-2deg);box-shadow:0 14px 30px -14px rgba(4,18,9,.7)} .ds-deal small{display:block;margin-top:6px;font:800 .95rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:.06em}"
     },
     {
-      "name": "Town Chips",
-      "kind": "chip",
-      "refersTo": "town-chip",
-      "description": "Service-area towns as lime-washed pills; the last chip is dashed.",
-      "html": "<ul class=\"ds-towns\"><li>Wyckoff</li><li>Franklin Lakes</li><li>Mahwah</li><li class=\"ds-more\">+ surrounding areas</li></ul>",
-      "css": ".ds-towns{list-style:none;margin:0;padding:16px;display:flex;flex-wrap:wrap;gap:10px;background:var(--ground,#12301e);color:var(--text,#eef3ea);font-family:var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif)} .ds-towns li{padding:10px 16px;border-radius:999px;background:rgba(124,194,66,.12);border:1px solid rgba(124,194,66,.35);font-weight:700;font-size:1.0625rem} .ds-towns li.ds-more{background:none;border-style:dashed;color:var(--text-soft,#b9cbb9);font-weight:500}"
-    },
-    {
-      "name": "Step Leaf",
+      "name": "Town List",
       "kind": "custom",
-      "refersTo": "step-leaf",
-      "description": "Numbered autumn leaf marking each step on the cream section.",
-      "html": "<div class=\"ds-step\"><svg width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" aria-hidden=\"true\"><path d=\"M8 44C8 24 20 10 44 8c0 24-14 36-36 36z\" fill=\"#e07a2c\"/><path d=\"M10 42L19 33\" stroke=\"#7a3a10\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"28\" y=\"31\" text-anchor=\"middle\" font-family=\"-apple-system,Segoe UI,Roboto,sans-serif\" font-size=\"15\" font-weight=\"900\" fill=\"#2a1205\">2</text></svg><div><h3>Free estimate</h3><p>Zelaya gives you a free estimate for the work.</p></div></div>",
-      "css": ".ds-step{display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start;padding:16px;background:var(--cream,#f2eee1);font-family:var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif)} .ds-step h3{margin:0;padding-top:4px;font:900 1.25rem/1.1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-transform:uppercase;letter-spacing:-.02em;color:var(--ink,#0f2819)} .ds-step p{margin:6px 0 0;color:var(--ink-soft,#3c5544);line-height:1.55}"
+      "refersTo": "town-item",
+      "description": "Plain list of towns led by small lime/gold/orange leaf markers; no fill, border or pill.",
+      "html": "<ul class=\"ds-towns\"><li>Wyckoff</li><li>Franklin Lakes</li><li>Ridgewood</li><li>Mahwah</li><li>Oakland</li><li class=\"more\">and the surrounding areas</li></ul>",
+      "css": ".ds-towns{list-style:none;margin:0;padding:24px 16px;display:grid;gap:6px;background:repeating-linear-gradient(115deg,var(--ground,#12301e) 0 64px,var(--stripe,#15361f) 64px 128px);color:var(--text,#eef3ea)} .ds-towns li{display:flex;align-items:center;gap:12px;font:800 clamp(1.5rem,6.6vw,2.1rem)/1.15 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);letter-spacing:-.01em} .ds-towns li::before{content:\"\";width:.62em;height:.62em;flex:none;background:var(--lime,#7cc242);-webkit-mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M5 27C5 14 13 5 28 4c0 15-9 23-23 23z'/%3E%3C/svg%3E\") center/contain no-repeat;mask:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M5 27C5 14 13 5 28 4c0 15-9 23-23 23z'/%3E%3C/svg%3E\") center/contain no-repeat} .ds-towns li:nth-child(2n)::before{background:var(--leaf-gold,#e6b33c)} .ds-towns li:nth-child(3n)::before{background:var(--leaf-orange,#e07a2c)} .ds-towns li.more{margin-top:6px;font:500 1.0625rem/1.4 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);color:var(--text-soft,#b9cbb9)} .ds-towns li.more::before{display:none}"
     },
     {
-      "name": "Sticky Phone Bar",
-      "kind": "nav",
-      "refersTo": "sticky-bar",
-      "description": "Phone-only bottom bar with Text and icon-only Call once in-page buttons scroll away.",
-      "html": "<nav class=\"ds-bar\"><a class=\"ds-bar-text\" href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-4.6A8 8 0 1 1 21 12z\"/></svg>Text for a free estimate</a><a class=\"ds-bar-call\" href=\"#\" aria-label=\"Call\"><svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z\"/></svg></a></nav>",
-      "css": ".ds-bar{display:grid;grid-template-columns:1fr auto;gap:10px;padding:10px 12px;background:rgba(12,34,21,.94);box-shadow:0 -10px 30px -12px rgba(0,0,0,.6)} .ds-bar a{display:flex;align-items:center;justify-content:center;gap:10px;min-height:54px;border-radius:999px;border:2px solid var(--lime,#7cc242);font:800 1.0625rem/1 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);text-decoration:none;transition:transform .25s cubic-bezier(.16,1,.3,1)} .ds-bar-text{background:var(--lime,#7cc242);color:var(--ground-3,#0c2215);padding:0 22px} .ds-bar-call{background:rgba(15,40,25,.55);color:var(--text,#eef3ea);padding:0 18px} .ds-bar a:active{transform:scale(.97)} .ds-bar a:focus-visible{outline:3px solid var(--lime,#7cc242);outline-offset:3px;}"
+      "name": "Care and Promise",
+      "kind": "custom",
+      "refersTo": "care",
+      "description": "Cream clearing: Moss Ink care paragraph and the serif promise line, last clause in Promise Lime.",
+      "html": "<div class=\"ds-care-wrap\"><p class=\"ds-care\">Your property is the first thing people see of your home. We treat it like our own and keep it clean, healthy and looking its best, through every season.</p><p class=\"ds-promise\">Reliable service. Quality work. <span>Year-round care.</span></p></div>",
+      "css": ".ds-care-wrap{background:var(--cream,#f2eee1);padding:28px 16px} .ds-care{margin:0;font:400 clamp(1.125rem,4.6vw,1.375rem)/1.5 var(--sans,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,sans-serif);color:var(--ink-soft,#3c5544);max-width:38ch} .ds-promise{margin:32px 0 0;font:700 clamp(1.25rem,5.4vw,1.75rem)/1.25 var(--serif,\"Iowan Old Style\",\"Palatino Linotype\",Palatino,Georgia,serif);color:var(--ink,#0f2819);max-width:28ch} .ds-promise span{color:#3f7a1c}"
     },
     {
       "name": "Turf Seam (static frame)",
@@ -471,29 +572,34 @@
   ],
   "narrative": {
     "northStar": "The Yard You Can Touch",
-    "overview": "The page is a fall lawn, not a website about one. The ground is deep lawn green cut into diagonal mowing stripes; grass grows along the bottom of the opening and closing bands, autumn leaves fall onto it, and a finger or cursor blows them away like a leaf blower. Sections meet at rolling turf seams rather than straight edges. Everything else stays out of the way of one action: text Zelaya for a free estimate.\n\nThe voice is the owner's flyer, promoted: heavy uppercase sans headlines that read like a yard sign, the chrome-serif ZELAYA wordmark from the logo, logo lime and chrome silver as trim, and maple orange, red and gold as the only warm notes. The type stack is the system's own sans and serif, no web fonts; this is the owner's house style and a deliberate choice, not a fallback. Density is phone-first and generous: big tap targets, short service rows, one pair of buttons repeated unchanged.\n\nConfirmed rejections: black grounds (the flyer is black; the page is green), glow shadows, thin highlight rims, stock or AI photography shown as Zelaya's work, and any fact the owner has not stated.",
+    "overview": "The page is a fall lawn, not a website about one. The ground is deep lawn green cut into diagonal mowing stripes; grass grows along the bottom of the opening and closing bands, autumn leaves fall onto it, and a finger or cursor blows them away like a leaf blower. Sections meet at rolling turf seams rather than straight edges. Everything else stays out of the way of one action: text Zelaya for a free estimate.\n\nThe voice is the owner's flyer, promoted: heavy uppercase sans headlines that read like a yard sign, the chrome-serif ZELAYA wordmark from the logo, logo lime and chrome silver as trim, and maple gold and orange as the warm notes. The type stack is the system's own sans and serif, no web fonts; Ellie pinned this house style over the skill's display-face rule, so it is a recorded exception, not a default for other projects. Density is phone-first and generous: big tap targets, short service rows, one lime Text button repeated unchanged, and the phone number always visible in the top bar.\n\nConfirmed rejections: black grounds (the flyer is black; the page is green), glow shadows, thin highlight rims, stock or AI photography shown as Zelaya's work, and any fact the owner has not stated.",
     "keyCharacteristics": [
       "Deep green ground in 115° mowing stripes, never black.",
       "Living turf: canvas grass and blowable leaves in the hero and the close; a few leaves drift down the page.",
       "Rolling turf seams between every section.",
       "Uppercase 900-weight system sans for display; chrome system serif for the wordmark and the promise line.",
-      "One button pair (Text primary, Call ghost), pill-shaped, identical everywhere it appears.",
-      "Warm leaf colors only on the offer and the step leaves; lime carries every action."
+      "One in-page action, the lime Text pill; calling lives in the top-bar number pill.",
+      "Gold carries the offer (chip and desktop deal swatch); lime, gold and orange leaf markers name the towns; lime carries every action."
     ],
     "rules": [
       {
         "name": "The Green Ground Rule",
-        "body": "The darkest surface is Night Green. No section, bar, overlay or card is black or neutral grey; translucent layers are green-tinted (rgba(12,34,21,.94), rgba(15,40,25,.55)).",
+        "body": "The darkest surface is Night Green. No section, bar, overlay or card is black or neutral grey; any translucent layer is green-tinted.",
         "section": "colors"
       },
       {
         "name": "The Lime Means Act Rule",
-        "body": "Lime is the color of action, the offer and the living turf (buttons, arrows, focus, the deal, seams, season heads, the headline's second clause). Warm leaf colors never sit on a button, and no button is any color but lime or the green ghost.",
+        "body": "Lime is the color of action and the living turf: the button, the call pill, focus, seams, season heads, the headline's second clause. Resting arrow wells stay neutral and turn lime only under the pointer. Warm leaf colors never sit on a button, and no button is any color but lime.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gold Is the Offer Rule",
+        "body": "Maple Gold with Bark Ink text marks the 10%-off offer, wherever it appears. Gold, orange and lime otherwise appear only as small leaf markers, never as fills.",
         "section": "colors"
       },
       {
         "name": "The Shout and Sign Rule",
-        "body": "Headings are uppercase 900 sans; sentences are sentence case 400. Nothing in between gets uppercase except the logo lockup.",
+        "body": "Headings and service names are uppercase 900/800 sans; sentences are sentence case 400. Nothing else is uppercase except the logo lockup and the deal swatch.",
         "section": "typography"
       },
       {
@@ -503,7 +609,7 @@
       },
       {
         "name": "The Thumb Rule",
-        "body": "Every tap target is at least 44px; buttons are 58px tall on phones (54px in the sticky bar, 62px desktop) and service rows are 64px.",
+        "body": "Every tap target is at least 44px; buttons are 58px tall on phones (62px desktop), the call pill 44px (46px desktop), and service rows 64px.",
         "section": "layout"
       },
       {
@@ -518,22 +624,24 @@
       }
     ],
     "dos": [
-      "Do keep every ground green (Night Green is the floor) and use the 115° mowing stripe (64px bands of ground and stripe) on the hero and the area band.",
-      "Do repeat the same Text-primary / Call-ghost button pair, in that order, wherever contact is offered.",
-      "Do make every service a row that texts Zelaya with the service pre-filled.",
-      "Do join sections with rolling turf seams whose fill matches the next section.",
-      "Do tune motion through the named turf and drift constants, scaling them down on phones, and keep the reduced-motion still frame.",
-      "Do keep tap targets at 44px or more, and buttons at 54 to 62px tall.",
-      "Do use the system sans and serif stacks; no web fonts."
+      "**Do** keep every ground green (Night Green is the floor) and use the 115° mowing stripe (64px bands of ground and stripe) on the hero and the area band.",
+      "**Do** offer contact as the one lime Text pill in the hero and the close, with the number always visible in the top-bar call pill.",
+      "**Do** make every service a row that texts Zelaya with the service pre-filled, with a neutral arrow well that turns lime on hover.",
+      "**Do** mark the offer in Maple Gold with Bark Ink, as the cut-tag chip or the desktop swatch.",
+      "**Do** join sections with rolling turf seams whose fill matches the next section.",
+      "**Do** tune motion through the named turf and drift constants, scaling them down on phones, and keep the reduced-motion still frame.",
+      "**Do** keep tap targets at 44px or more, and buttons at 58 to 62px tall.",
+      "**Do** use the system sans and serif stacks on this project; no web fonts.",
+      "**Do** set lime text on cream in Promise Lime, never the logo lime."
     ],
     "donts": [
-      "Don't use a black or neutral-grey ground anywhere, including bars and overlays.",
-      "Don't use glow shadows: no colored blur, no lime halo, no zero-offset glow. Shadows are dark, downward and spread-negative.",
-      "Don't add thin highlight lines: no 1px light rims, inner top highlights or glassy borders on buttons, chips or panels. The turf seam strokes and the faint row hairlines are the only lines.",
-      "Don't state facts the owner hasn't given: no review stars, testimonials, rating badges, years-in-business ribbons, prices, hours or owner name, and no stock or AI-generated photos presented as Zelaya's work.",
-      "Don't put warm leaf colors on buttons; buttons are lime or the green ghost.",
-      "Don't set headings in the serif or buttons in uppercase.",
-      "Don't turn services into a card grid."
+      "**Don't** use a black or neutral-grey ground anywhere, including bars and overlays.",
+      "**Don't** use glow shadows: no colored blur, no lime halo, no zero-offset glow. Shadows are dark, downward and spread-negative.",
+      "**Don't** add thin highlight lines: no 1px light rims, inner top highlights or glassy borders on buttons, chips or panels. The turf seam strokes and the faint row hairlines are the only hairlines.",
+      "**Don't** state facts the owner hasn't given: no review stars, testimonials, rating badges, years-in-business ribbons, prices, hours or owner name, and no stock or AI-generated photos presented as Zelaya's work.",
+      "**Don't** put warm leaf colors on buttons, or use gold for anything but the offer and town markers.",
+      "**Don't** set headings in the serif or buttons in uppercase.",
+      "**Don't** turn services into a card grid or towns into chips; both are plain lists."
     ]
   }
 }
