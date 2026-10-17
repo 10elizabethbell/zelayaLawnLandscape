@@ -1,6 +1,6 @@
 # Zelaya Lawn & Landscape — handoff at ~60%
 
-**Live file:** index.html · **Repo:** https://github.com/10elizabethbell/zelayaLawnLandscape · **Built:** 2026-10-08 from Muse brief (run 2026-10-08, FB group post 4158275421136960)
+**Live site:** https://10elizabethbell.github.io/zelayaLawnLandscape/ · **Live file:** index.html · **Repo:** https://github.com/10elizabethbell/zelayaLawnLandscape · **Built:** 2026-10-08 from Muse brief (run 2026-10-08, FB group post 4158275421136960)
 
 ## What's built
 - Single file, 42 KB, no images and no web fonts, so it loads instantly on cellular. Phone layout first, desktop added from 760px up.
@@ -28,6 +28,7 @@
 - After Dec 31 the offer copy goes stale and needs removing (4 places: hero chip, desktop swatch in services, step 3, close chip).
 
 ## Questions for the owner
+- What's the link to your Facebook page?
 - Can you send 5–10 photos of real jobs (cleanups, mulch beds, hardscapes), ideally before/after pairs?
 - Do you have the logo as a file (PNG/SVG/AI)?
 - What are your hours, and should texts get a reply the same day?
@@ -51,3 +52,16 @@
 - The SMS hand-off with a pre-filled body on real iOS and Android, especially inside Facebook's in-app browser.
 - The sticky bar's behavior with the in-app browser's own bottom toolbar.
 - How the system serif wordmark renders on Android (falls back to Georgia or a default serif).
+
+## Rules pass (2026-10-17)
+
+Brought up to `finishing-rules.md` (the session started on older skill text):
+- Removed the sticky Text/Call bar on phones and the "Demo one-pager — free sample." footer line.
+- The phone number appears once on the first screen: the top-right pill now shows the number on every phone (compact under 430px). The closing section's Call button also went (Text only); the footer keeps the number.
+- Hero and closing Text buttons send a general estimate request ("What I need:") so they no longer duplicate the Fall cleanups row.
+- Owner's voice ("we/us/our", matching their own caption "our schedule… contact us"). The three mechanical steps were replaced by a care paragraph: "Your property is the first thing people see of your home. We treat it like our own and keep it clean, healthy and looking its best, through every season." **"Treat it like our own" is my wording, not theirs: confirm with the owner.**
+- Arrow circles on service rows are neutral until hovered; the desktop deal swatch is gold, not button lime.
+- Favicon and iPhone icon from the Z mark; og.jpg (1200x630 hero screenshot) plus og/twitter tags for the Facebook link preview.
+- `overscroll-behavior-y: none` so dragging in the hero doesn't trigger pull-to-refresh.
+- Not done: **Facebook link.** The brief has only the group post, not their page URL (their timeline is restricted). Add the link under the services (where people want to see more work) and in the footer once we have it.
+- Not done: Impeccable every-mode pass (skipped on the coordinator's instruction).
