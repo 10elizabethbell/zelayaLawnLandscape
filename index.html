@@ -72,9 +72,7 @@ p{margin:0}
 .hero-body{position:relative;z-index:2;padding-top:26px}
 .hero h1{font-size:clamp(2.35rem,10.4vw,5.6rem);color:var(--text)}
 .hero h1 em{font-style:normal;color:var(--lime)}
-.pitch{margin-top:16px;font-size:clamp(1.0625rem,4.4vw,1.25rem);line-height:1.4;color:var(--text-soft);max-width:34ch}
-.pitch strong{color:var(--text);font-weight:700}
-.offer{display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:9px 16px 9px 12px;background:var(--leaf-gold);color:#2a1a05;font:800 .95rem/1.2 var(--sans);border-radius:6px 14px 8px 16px;transform:rotate(-1.5deg);box-shadow:0 6px 18px -8px rgba(0,0,0,.5)}
+.offer{display:inline-flex;align-items:center;gap:10px;margin-top:22px;padding:9px 16px 9px 12px;background:var(--leaf-gold);color:#2a1a05;font:800 .95rem/1.2 var(--sans);border-radius:6px 14px 8px 16px;transform:rotate(-1.5deg);box-shadow:0 6px 18px -8px rgba(0,0,0,.5)}
 .offer svg{width:20px;height:20px;flex:none}
 .hero .btns{margin-top:22px}
 .hero-mark{display:none}
@@ -118,9 +116,13 @@ p{margin:0}
 /* ============ AREA ============ */
 .area{background:repeating-linear-gradient(115deg,var(--ground) 0 64px,var(--stripe) 64px 128px);padding:36px 0 84px;position:relative}
 .area h2{font-size:clamp(2rem,8.6vw,4rem)}
-.towns{list-style:none;margin:26px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
-.towns li{padding:10px 16px;border-radius:999px;background:rgba(124,194,66,.12);border:1px solid rgba(124,194,66,.35);font-weight:700;font-size:1.0625rem}
-.towns li.more{background:none;border-style:dashed;color:var(--text-soft);font-weight:500}
+.towns{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:6px}
+.towns li{display:flex;align-items:center;gap:12px;font:800 clamp(1.5rem,6.6vw,2.1rem)/1.15 var(--sans);letter-spacing:-.01em}
+.towns li::before{content:"";width:.62em;height:.62em;flex:none;background:var(--lime);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M5 27C5 14 13 5 28 4c0 15-9 23-23 23z'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M5 27C5 14 13 5 28 4c0 15-9 23-23 23z'/%3E%3C/svg%3E") center/contain no-repeat}
+.towns li:nth-child(2n)::before{background:var(--leaf-gold)}
+.towns li:nth-child(3n)::before{background:var(--leaf-orange)}
+.towns li.more{margin-top:6px;font:500 1.0625rem/1.4 var(--sans);color:var(--text-soft)}
+.towns li.more::before{display:none}
 .area p{margin-top:18px;color:var(--text-soft);max-width:44ch}
 
 /* ============ CLOSE ============ */
@@ -166,7 +168,6 @@ footer .demo{margin-top:8px;font-size:.875rem;opacity:.85}
   .hero::after{height:170px}
   .hero-body{padding-top:64px;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,.65fr);align-items:center;gap:40px}
   .hero-mark{display:block;width:min(100%,340px);height:auto;aspect-ratio:1;justify-self:center;filter:drop-shadow(0 22px 30px rgba(5,20,10,.55))}
-  .pitch{max-width:none;font-size:clamp(1rem,1.45vw,1.25rem)}
   .seam{height:80px;margin-top:-79px}
   .services{padding:48px 0 120px}
   .seasons{display:grid;grid-template-columns:1fr 1fr;gap:0 56px;align-items:start}
@@ -178,8 +179,8 @@ footer .demo{margin-top:8px;font-size:.875rem;opacity:.85}
   .steps{grid-template-columns:repeat(3,1fr);gap:40px}
   .area{padding:56px 0 120px}
   .area .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
-  .towns{margin:0}
-  .towns li{font-size:1.25rem;padding:14px 22px}
+  .towns{margin:0;grid-template-columns:auto auto;column-gap:48px;justify-content:start}
+  .towns li.more{grid-column:1 / -1}
   .close{padding:72px 0 200px}
   .close .btns{max-width:none;justify-content:center}
 }
@@ -194,7 +195,7 @@ footer .demo{margin-top:8px;font-size:.875rem;opacity:.85}
 THESIS: Zelaya's fall-cleanup flyer becomes a yard you can touch. The page refuses the template landscaper site (stock lawn photo hero, card grid of services) and makes the season itself the hero: leaves falling on striped turf, blown away by your finger.
 OWN-WORLD: Deep lawn green ground in diagonal mowing stripes; logo lime and chrome silver as trim; maple-leaf orange, red and gold as the only warm notes; filled, swaying grass blades; heavy uppercase sans display with a chrome serif wordmark (Ellie's taste pins the system stack over Impeccable's display-face rule).
 STORY: Owner sees their own flyer done better; homeowner sees fall cleanup + 10% off in their town, texts for a free estimate in one tap, learns snow removal is next.
-FIRST VIEWPORT (390px): logo bar; "Leaves gone. Yard ready for winter."; towns pitch; gold 10%-off chip; full-width Text + Call buttons; living grass band with leaves under them.
+FIRST VIEWPORT (390px): logo bar; "Leaves gone. Yard ready for winter."; gold 10%-off chip; full-width Text button (call lives in the top bar); living grass band with leaves under them.
 FORM: own-world trade page, grounded list item 1 of 7 (autumn lawn), seed 405875b4, direction pinned by the pitch-site skill's world rule.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 -->
@@ -239,7 +240,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
   <div class="wrap hero-body">
     <div>
       <h1>Leaves gone. <em>Yard ready for winter.</em></h1>
-      <p class="pitch">Fall cleanups &amp; leaf removal in <strong>Wyckoff, Franklin Lakes, Ridgewood, Mahwah, Oakland</strong> and nearby.</p>
       <p class="offer"><svg class="icon" aria-hidden="true"><use href="#i-tag"/></svg>Now booking · 10% off all services through Dec&nbsp;31</p>
       <div class="btns" id="hero-cta">
         <a class="btn btn-primary" data-sms="fall cleanup" href="sms:+15515003832"><svg class="icon" aria-hidden="true"><use href="#i-msg"/></svg>Text for a free estimate</a>
@@ -312,7 +312,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       <p>Bergen County, NJ. Not sure if you're in range? Text your town and ask.</p>
     </div>
     <ul class="towns">
-      <li>Wyckoff</li><li>Franklin Lakes</li><li>Ridgewood</li><li>Mahwah</li><li>Oakland</li><li class="more">+ surrounding areas</li>
+      <li>Wyckoff</li><li>Franklin Lakes</li><li>Ridgewood</li><li>Mahwah</li><li>Oakland</li><li class="more">and the surrounding areas</li>
     </ul>
   </div>
 </section>
