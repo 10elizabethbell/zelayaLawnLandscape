@@ -80,6 +80,30 @@
         "value": "1rem",
         "createdAt": "2026-10-08T23:50:32.411Z",
         "reason": "Claude (pitch-site build 2026-10-08): shipped value DESIGN.md's documenter chose not to canonize; intentional (small text and wordmark sizes)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "createdAt": "2026-10-17T18:36:20.046Z",
+        "reason": "Claude (pitch-site): Roboto is only the Android fallback in the system font stack that Ellie's pitch-site house style requires"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-17T18:36:20.146Z",
+        "reason": "Claude (pitch-site): diagonal mowing stripes are the lawn world's own material, named in the direction contract's OWN-WORLD"
+      },
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-17T18:36:20.243Z",
+        "reason": "Claude (pitch-site): uppercase only on headings, service names and short labels per house style; no uppercase passages"
       }
     ]
   }
